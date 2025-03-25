@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://c1.wallpaperflare.com/preview/958/66/443/nature-sky-outdoors-season-downy-weather.jpg" alt="" class="bi">
+    <div class="container">
+    <div class="top">
+        <div class="search">
+            <input type="text" placeholder="enter name of city" name="search">
+            <button type="submit" id="search">Search</button>
+        </div>
+        
+        <div class="weather">
+            <div class="weather-icon"></div> <br>
+            <div class="discription">snow</div>
+            <h1 class="temp"></h1>
+            <h2 class="city">butwal</h2>
+            <div class="time">02/02/2024</div>
+            <div class="day">Sunday</div>
+            <div class="minmax">
+                <p class="maxtemp">max temperature</p>
+                <p class="max"></p>
+                <p class="mintemp">min temperature</p>
+                <p class="min"></p>
+            </div>
+            <div class="divider"></div>
+            <div class="details">
+                <div class="col1">
+                    <img src="https://cdn4.iconfinder.com/data/icons/technical-specification/100/humidity-64.png" alt="">
+                    <div class="h">
+                        <p class="humidity"></p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col2">
+                    <img src="https://cdn4.iconfinder.com/data/icons/weatherful/72/Windy-64.png" alt="">
+                    <div class="w">
+                        <p class="wind"></p>
+                        <p>windspeed</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <img src="https://cdn0.iconfinder.com/data/icons/weather-764/64/32-Wind_pressure-64.png" alt="">
+                    <div class="p">
+                        <p class="pressure"></p>
+                        <p>pressure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>

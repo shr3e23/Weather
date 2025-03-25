@@ -1,0 +1,150 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bi{
+    left: 200px;
+    position: absolute;
+    height: 700px;
+    border-radius: 25px;
+}
+.container {
+    width: 600px;
+    height: 550px;
+    background-color: rgba(253, 255, 255, 0.356);
+    border-radius: 30px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+#search {
+    top: 20px;
+    left: 409px;
+    position: absolute;
+    height: 34px;
+    width: 55px;
+    border-radius: 10px;
+}
+#search img{
+    top: 1px;
+    height: 30px;
+    position: absolute;
+    right: 1px;
+}
+.search input{
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.weather-icon {
+    position: absolute;
+    top: 45px;
+    left: 335px;
+    height: 200px;
+}
+.weather-icon img{
+    height: 200px;
+    width: 200px;
+}
+.discription {
+    position: absolute;
+    height: 30px;
+    left: 382px;
+    top: 210px;
+    font-size: 25px;
+}
+.weather .temp {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+}
+.weather .city {
+    font-size: 40px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.weather .day {
+    font-size: 16px;
+    position: absolute;  
+}
+.weather .date {
+    font-size: 16px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.minmax {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 170px;
+    left: 50px;
+}
+
+.divider {
+    border-left: 3px solid black;
+    height: 250px;
+    position: absolute;
+    left: 290px;
+    top: 80px;
+}
+.col1 {
+    position: absolute;
+    width: 150px;
+    top: 400px;
+    left: 30px;
+}
+.col2 {
+    position: absolute;
+    width: 150px;
+    top: 400px;
+    left: 220px;
+}
+.col3 {
+    position: absolute;
+    width: 150px;
+    top: 400px;
+    left: 450px;
+}
+.h {
+    position: absolute;
+    left: 100px;
+    bottom: 3px;
+    
+}
+.col1, img{
+    position: absolute;
+    height: 100px;
+}
+.w {
+    position: absolute;
+    left: 85px;
+    top: 8px;
+}
+.p {
+    top:6px;
+    position: absolute;
+    left: 50px;
+}
+.col2 img{
+    left: -14px;
+}
+.col3 img{
+    right: 105px;
+}
+.time {
+    position: absolute;
+    top: 260px;
+    left: 310px;
+    font-size: 20px;
+}
+.day {
+    position: absolute;
+    top: 300px;
+    left: 310px;
+    font-size: 20px;
+}
